@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>document</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+        <div class="main">
+                <nav>
+                        <span><img src="assets/images/logo.svg" alt></span>
+                        <div>
+                                <button class="btn">English</button>
+                                <button class="btn btn-red-sm">Sign
+                                        In</button>
+                        </div>
+                </nav>
+                <!--
+            The <nav> tag in HTML is a semantic element that is used to define a navigation menu on a web page. It is meant to encapsulate a set of navigation links that lead to different parts of the website or other relevant pages-->
+                <div class="box"><!-- just to set background darker for image -->
+                </div>
+                <div class="hero">
+                        <span> Unlimited movies, TV shows and more.
+                        </span>
+                        <span> Watch anywhere. Cancel anytime.</span>
+                        <span> Ready to watch? Enter your email to
+                                create or restart your
+                                membership.</span>
+
+                        <div class="hero-buttons">
+                                <input type="text" placeholder="Email address">
+                                <button class="btn btn-red">Get Started
+                                        &gt;</button>
+                        </div>
+                </div>
+
+        </div>
+
+        <section class="sections first">
+
+                <div class="texts">
+                        <div class="main-text">Enjoy on your TV</div>
+                        <div class="description">Watch on smart TVs,
+                                PlayStation, Xbox, Chromecast, Apple TV,
+                                Blu-ray
+                                players and more.</div>
+                </div>
+
+                <div class="animations">
+                        <div> <video src="assets/videos/video-1.m4v" autoplay loop muted></div></video>
+                        <div><img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
+                                        alt=""></div>
+                </div>
+
+        </section>
+        <!-- when we give two class names and if there are conflicting styles (both defining same property) then between those two's the class declared later will have the precedence (for example here first will have more precedence than second) else if property is not conflicting then each of them will be applied-->
+        <section class="sections second">
+
+                <div class="animations">
+                        <div><img src="assets/images/section 2nd background image.jpg" class="bg" alt></div>
+
+                        <div class="sm-div">
+                                <span class="sm-img"><img src="assets/images/section 2 smaller image on animation.png"
+                                                alt="">
+                                </span>
+                                <span class="sm-text"> Stranger Things </span>
+                                <span class="sm-text-downloading">Downloading &darr;</span>
+                        </div>
+                </div>
+
+                <div class="texts">
+                        <div class="main-text"> Download your shows to watch
+                                offline</div>
+                        <div class="description">
+                                Save your favourites easily and always
+                                have something to watch.</div>
+                </div>
+
+        </section>
+
+        <section class="sections third">
+
+                <div class="texts">
+                        <div class="main-text"> Watch everywhere</div>
+                        <div class="description">Stream unlimited movies
+                                and TV shows on your phone, tablet,
+                                laptop, and
+                                TV.</div>
+                </div>
+
+                <div class="animations">
+                        <div><img src="assets/images/section 3 tv background image.png" alt></div>
+                        <div><video src="assets/videos/section 3 video.m4v" muted autoplay loop></video></div>
+                </div>
+
+        </section>
+
+        <section class="sections fourth">
+
+                <div class="animations"><img src="assets/images/section 4 image.png" alt></div>
+
+                <div class="texts">
+                        <div class="main-text"> Create profiles for
+                                kids</div>
+                        <div class="description"> Send children on
+                                adventures with their favourite
+                                characters in
+                                a space made just for them—free with
+                                your membership.</div>
+                </div>
+
+        </section>
+
+        <section class="faqs">
+                <div id="faqs-main-text">Frequently Asked Questions</div>
+
+                <ul>
+                        <li class="faqs-questions"><button>
+                                        <section class="faqs-text">What is Netflix?</section>
+                                        <section class="plus-sign">+</section>
+                                </button></li>
+                        <li class="faqs-questions"><button>
+                                        <section class="faqs-text">How much does Netflix cost?</section>
+                                        <section class="plus-sign">+</section>
+                                </button></li>
+                        <li class="faqs-questions"><button>
+                                        <section class="faqs-text">Where can I watch?</section>
+                                        <section class="plus-sign">+</section>
+                                </button></li>
+                        <li class="faqs-questions"><button>
+                                        <section class="faqs-text">How do I cancel?</section>
+                                        <section class="plus-sign">+</section>
+                                </button></li>
+                        <li class="faqs-questions"><button>
+                                        <section class="faqs-text">What can I watch on Netflix?</section>
+                                        <section class="plus-sign">+</section>
+                                </button></li>
+                        <li class="faqs-questions"><button>
+                                        <section class="faqs-text">Is Netflix good for kids?</section>
+                                        <section class="plus-sign">+</section>
+                                </button></li>
+                </ul>
+
+                <div class="faqs-mail"> Ready to watch? Enter your email to create or restart your membership.</div>
+                <div class="hero-buttons">
+                        <input type="text" placeholder="Email address">
+                        <button class="btn btn-red"> Get Started
+                                &gt;</button>
+                </div>
+        </section>
+
+        <div class="ending">
+                <div class="ending-flexbox">
+                        <ul id="ending-list">
+                                <li>FAQ</li>
+                                <li>Help Centre </li>
+                                <li> Account</li>
+                                <li> Media Centre</li>
+                                <li>Investor Relations</li>
+                                <li>Jobs </li>
+                                <li>Ways to Watch</li>
+                                <li> Terms of Use</li>
+                                <li>Privacy</li>
+                                <li> Cookie Preferences</li>
+                                <li>Corporate Information</li>
+                                <li>Contact Us </li>
+                                <li>Speed Test</li>
+                                <li> Legal Notices</li>
+                                <li>Only on Netflix</li>
+                                <li></li>
+                        </ul>
+                </div>
+                <button class="btn">English</button>
+                <div>Netflix India</div>
+        </div>
+
+</body>
+
+</html>
